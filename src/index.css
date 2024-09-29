@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+nav{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+ul{
+  display: flex;
+  margin: 6px;
+}
+
+li{
+  padding: 4px;
+}
 /*
 * {
   box-sizing: border-box;
