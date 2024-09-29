@@ -81,7 +81,7 @@ export default function Web() {
                 alt={item.name}
                 className="w-full h-48 object-cover rounded"
               />
-              <h2>{item.name}</h2>
+              <h2 className='font-bold text-lg'>{item.name}</h2>
               <p>{item.details}</p>
               <p>ราคา: {item.price} บาท</p>
 
